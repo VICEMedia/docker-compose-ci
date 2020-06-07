@@ -5,6 +5,7 @@ RUN apk add --update --no-cache \
         git \
         curl \
         openssh \
+        python3 \
         docker-cli
 
 RUN mkdir ~/.ssh && \
